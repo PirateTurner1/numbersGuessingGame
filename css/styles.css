@@ -1,0 +1,193 @@
+
+/* CSS reset */
+header, body, p, h1, h2, h3, h4, footer{
+    padding: 0; 
+    margin: 0;
+}
+  
+/*box model fix here*/
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box;  box-sizing: border-box; 
+}
+  
+html{
+   background:rgb(231, 231, 231);
+   font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    max-width: 1080px;
+    height: 200px;
+    margin: 0 50px 15px 60px;
+    background-image: url("../images/guessingNumbers.png");
+    background-repeat: no-repeat;
+    background-size: 1080px 200px;
+    
+}
+
+main,
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color:#593C1F;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: left;
+    color:#4e04fc;
+    margin-bottom: 15px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    color: #6543e2;
+}
+
+/* putting in the top header h1-h2*/
+#company {
+    color: rgb(193, 189, 214);
+    color: rgb(163, 245, 163);
+    font-size: 3.25rem;
+    padding-top: 20px;
+    text-shadow: 3px 3px #000;
+    text-indent: 20px;
+    margin: 0 170px 30px 10px;
+}
+
+#slogan {
+    color:rgb(193, 189, 214);
+    color:rgb(163, 245, 163);
+    font-size: 2rem;
+    padding-top: 20px;
+    margin-left: 40px;
+    text-shadow: 3px 3px #000;
+    /*text-indent: 10px;*/
+}
+
+#pageName {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    /*color: white;*/
+    width: 80%;
+    height: 70vh;
+    background-color:rgb(231, 231, 231);
+}
+
+/* setting the table or article*/
+.articles { 
+    display: flex;
+    flex-direction: row;
+}
+
+main article {
+    width: 15%;
+}
+
+main article div {
+    height: 130px;
+    background-color: #fff;
+    padding-top: 10px;
+    margin-bottom: 0 auto;
+}
+
+main article.a1 {
+    width: 15%;
+    background-color: rgb(163, 245, 163);
+   
+}
+
+main article.a1 h2 {
+    margin-left:15px;
+}
+
+main article.a1 input {
+    border: 1px solid black;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+
+main article.a1 button {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(163, 245, 163);
+    width: 50%;
+    font-size: 16px;
+    color: black;
+    padding:3px;
+    margin-left:15px;
+    
+}
+
+main article.a2 {
+    width: 180px;
+    background-color: rgb(163, 245, 163);
+}
+
+main article.a2 div {
+    text-align: center;
+    font-size: 3rem;
+}
+
+main #attempts {
+    font-size: 2rem; 
+    color:black;
+    padding-right: 90px;
+}
+
+main article.a3 {
+    width: 30%;
+    background-color: rgb(163, 245, 163);
+}
+
+main #feedback {
+    font-size: 1.75rem;
+    color:black;
+}
+
+main article.a4 {
+    width: 11%;
+    height: 130px;
+    background-color: rgb(163, 245, 163);
+}
+
+img {
+    height: 120px;
+    width:80px;
+}
+
+div.keepOpen { 
+    clear: both;
+} 
+
+footer{
+    clear: both;
+    background-color:#593C1F;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    margin: 70px 0 10px 0;
+    max-width: 1920px;
+    padding: 20px;
+    color: white;
+}
